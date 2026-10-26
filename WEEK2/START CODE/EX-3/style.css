@@ -1,0 +1,17 @@
+/* TODO */
+button{
+    background-color: pink;
+    padding: 100px 200px;
+    border-radius: 50px;
+    color: white;
+    font-size: 100px;
+    border: 10px solid blue;
+}
+button:hover{
+    background-color: purple;
+    padding: 100px 200px;
+    border-radius: 50px;
+    color: white;
+    font-size: 100px;
+     border: 10px solid green;
+}

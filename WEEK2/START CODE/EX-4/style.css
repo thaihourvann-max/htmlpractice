@@ -1,0 +1,59 @@
+.k1{
+    text-align: center;
+}
+.k2{
+   display: flex;
+   gap: 50px;
+   justify-content: center;
+}
+.k3{
+    margin: 50px;
+}
+.social{
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.button-box{
+    text-align: center;
+    margin-top: 20px;
+}
+button:hover{
+    background-color: blueviolet;
+}
+button{
+    width: 200px;
+    padding: 20px;
+    font-size: 16px;
+}
+.card{
+    width: 300px;
+    margin: 40px auto;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background: red;
+    color: white;
+    font-size: 14px;
+}
+.social img{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+}
+.r1 img{
+ width: 80px;
+ height: 80px;
+ object-fit: cover;
+}
+.r1{
+    display: flex;
+    justify-content: center;
+}
