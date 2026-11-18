@@ -1,0 +1,93 @@
+.page{
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+    background-color: lightgrey;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 1em;
+    padding: 2em;
+    border-radius: 0.5em;
+    gap: 1em;
+    width: 150px;
+}
+.active{
+    padding: 0.5em;
+    border-radius: 0.5em;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.active{
+    background-color: lightgrey; 
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 2em;
+    border-radius: 1em;
+    flex: 1;
+}
+.bar{
+    height: 10px;
+    background-color: lightgray;
+    border-radius: 1em;
+    margin-bottom: 1em;
+}
+.fill{
+    height: 100%;
+    border-radius: 1em;
+}
+.fill-25{
+    background-color: red;
+    width: 25%;
+}
+.fill-44{
+    background-color: blue;
+    width: 44%;
+}
+.fill-76{
+    background-color: blue;
+    width: 76%;
+}
+.course{
+    margin-bottom: 2em;
+}
+.course-1{
+    background-color: purple;
+    padding: 1em;
+    border-radius: 1em;
+}
+.course-2{
+    background-color: gray;
+    padding: 1em;
+    border-radius: 1em;
+}
+.course-3{
+    background-color: orange;
+    padding: 1em;
+    border-radius: 1em;
+}
+.welcome{
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+    padding: 1em;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin: 1em;
+}
