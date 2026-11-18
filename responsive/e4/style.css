@@ -1,0 +1,27 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.small{
+    display: none;
+}
+.big{
+    display: inline-block;
+    background-color: yellow;
+    font-size: 28px;
+    padding: 5px,10px;
+}
+@media(max-width:600px){
+    .big{
+        display: none;
+    }
+    .small{
+        display: inline-block;
+        background-color: orange;
+        color: white;
+        font-size: white;
+        padding: 3px 6px;
+    }
+}
